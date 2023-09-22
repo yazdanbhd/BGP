@@ -4,7 +4,8 @@
 
 The goal of this task is to implement and configure BGP protocol between two routers and create a peering session. I have used two Cisco 2691 routers in GNS3 network simulator environment.
 
-![image](https://github.com/yazdanbhd/BGP/assets/106450709/f1df5b87-a6cf-4dec-9c14-a2aabcc99bea)
+![image](https://github.com/yazdanbhd/BGP/assets/106450709/a9fca84b-a11a-43ad-81a0-f97991819b04)
+
 
 
 ## Steps
@@ -77,7 +78,8 @@ network 1.1.1.0 mask 255.255.255.0
 
 14. Now we exit BGP config using `exit`. And save config changes using `wr` command.
 
-![image](https://github.com/yazdanbhd/BGP/assets/106450709/8312317b-7bd9-4992-8498-2b7535b6ec5d)
+![image](https://github.com/yazdanbhd/BGP/assets/106450709/bef6f417-7d12-4480-912c-46e9ac06a80a)
+
 
 
 15. Now we enter second router (AS2) Terminal and configure it with below commands:
@@ -99,7 +101,8 @@ exit
 wr
 ```
 
-![image](https://github.com/yazdanbhd/BGP/assets/106450709/c5e1cec1-7cce-45b0-9905-ebbb546b8cda)
+![image](https://github.com/yazdanbhd/BGP/assets/106450709/17f6db3a-d095-44f3-98a0-64ac95c59ad0)
+
 
 
 16. Now we verify config and check BGP session establishment between routers AS1 and AS2 using:
@@ -109,4 +112,5 @@ show ip route
 show ip bgp
 ```
 
-![image](https://github.com/yazdanbhd/BGP/assets/106450709/464d1a31-19ca-4151-bf7c-5562f1dce947)
+![image](https://github.com/yazdanbhd/BGP/assets/106450709/54c662c9-4578-4dd1-816b-6982043b2efa)
+
